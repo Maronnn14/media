@@ -1,0 +1,66 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: #F7FDB6;
+    background-color: #EFEFEF;
+}
+/* header */
+/* Main-header */
+.main-header{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    
+}
+.main-header .navbar .container-fluid .navbar-brand img{
+    width: 3rem;
+    height: 3rem;
+    margin-right:0.4rem ;
+}
+.main-header .navbar .container-fluid .navbar-brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #F7FDB6;
+    /* width: 60%; */
+    margin-right: 38%;
+    margin-left: 20px;
+}
+
+.main-header .navbar .container-fluid{
+    display: flex;
+    background-color: #21825C;
+    padding: 0.4rem;
+}
+
+.main-header .navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: #1e1e1e 0.25rem 0.25rem 0.25rem;
+    /* box-shadow: 1px 1px 15px 2px black; */
+}
+
+.main-header .navbar .container-fluid .navbar-collapse{
+    width: 45%;
+}
+
+.main-header .navbar .container-fluid .navbar-collapse .navbar-nav li a{
+    color: #F7FDB6;
+    margin-right: 0.5rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.main-header .navbar .container-fluid .navbar-collapse .navbar-nav li a:hover{
+    background-color: #F7FDB6;
+    color: #21825C;
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: 0.3s;
+}

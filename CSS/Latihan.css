@@ -1,0 +1,354 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: #F7FDB6;
+    background-color: #EFEFEF;
+}
+
+/* header */
+/* Main-header */
+.main-header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+
+}
+
+.main-header .navbar .container-fluid .navbar-brand img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.4rem;
+}
+
+.main-header .navbar .container-fluid .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #F7FDB6;
+    /* width: 60%; */
+    margin-right: 38%;
+    margin-left: 20px;
+}
+
+.main-header .navbar .container-fluid {
+    display: flex;
+    background-color: #21825C;
+    padding: 0.4rem;
+}
+
+.main-header .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: #1e1e1e 0.25rem 0.25rem 0.25rem;
+    /* box-shadow: 1px 1px 15px 2px black; */
+}
+
+.main-header .navbar .container-fluid .navbar-collapse {
+    width: 45%;
+}
+
+.main-header .navbar .container-fluid .navbar-collapse .navbar-nav li a {
+    color: #F7FDB6;
+    margin-right: 0.5rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.main-header .navbar .container-fluid .navbar-collapse .navbar-nav li a:hover {
+    background-color: #F7FDB6;
+    color: #21825C;
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+/* statistika */
+.statistika {
+    background-color: #A4D792;
+    padding: 1rem;
+    margin-top: 5rem !important;
+    width: 80%;
+    margin: auto;
+    border-radius: 0.20rem;
+}
+
+.statistika .profil img {
+    width: 9rem;
+}
+
+.statistika .profil {
+    text-align: center;
+    width: 30%;
+}
+
+.statistika .nilai .sub-nilai {
+    background-color: #21825C;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 0.10rem;
+}
+
+.statistika .nilai .sub-nilai .judul {
+    font-size: 1.10rem;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.statistika .nilai .sub-nilai .ns {
+    font-size: 1.40rem;
+
+}
+
+.statistika .nilai .sub-nilai .nilai-s {
+    margin-top: 0.50rem;
+}
+
+.statistika .nilai {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    width: 70%;
+}
+
+/* End-statistika */
+/* Pencarian */
+.pencarian .sub-pencarian {
+    color: #1e1e1e;
+    display: flex;
+    width: 26rem;
+    border: #21825C 2px solid;
+    border-radius: 20px;
+    background-color: #EFEFEF;
+}
+
+.pencarian .sub-pencarian button {
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.pencarian .sub-pencarian input {
+    padding: 10px;
+    background-color: #EFEFEF;
+    width: 25rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+}
+
+.pencarian .dropdown button {
+    background-color: #21825C;
+    box-shadow: #1e1e1e 2px 2px 10px 0px;
+    color: #F7FDB6;
+}
+
+.pencarian .dropdown {
+    margin-top: 5px;
+    margin-left: 1rem;
+}
+
+.pencarian {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+/* end-Pencarian */
+/* Card soal */
+
+.rekomendasi .halo {
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 30px;
+}
+
+.konten-dipelajari {
+    flex: 2;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.konten-rekomendasi {
+    flex: 2;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* End Card soal */
+
+
+@media only screen and (min-width:580px) and (max-width:1100px) {
+
+    /* pencarian */
+    .pencarian .sub-pencarian {
+        color: #1e1e1e;
+        display: flex;
+        width: 100%;
+        border: #21825C 2px solid;
+        border-radius: 20px;
+        background-color: #EFEFEF;
+    }
+    
+    .pencarian .sub-pencarian button {
+        margin: auto;
+        /* align-self: flex-end; */
+        border: none;
+        background-color: transparent;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    
+    .pencarian .sub-pencarian input {
+        padding: 10px;
+        background-color: #EFEFEF;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+    
+    }
+    
+    .pencarian .dropdown button {
+        background-color: #21825C;
+        box-shadow: #1e1e1e 2px 2px 10px 0px;
+        color: #F7FDB6;
+        width: 30vh;
+    }
+    
+    .pencarian .dropdown {
+        margin-top: 5px;
+        margin-left: 1rem;
+    }
+    
+    .pencarian {
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+    
+    /* end pencarian */
+    /* Card */
+    .rekomendasi .halo {
+        margin: auto;
+        margin: auto !important;
+        position: relative;
+        border-radius: 10px;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-top: 30px;
+    }
+    
+    .konten-dipelajari {
+        flex: 2;
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .konten-rekomendasi {
+        flex: 2;
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .halo .card-rekomendasi .card {
+        width: 15rem !important;
+        /* End Card */
+    
+    
+    }
+}
+
+
+@media only screen and (max-width:576px) {
+
+    /* pencarian */
+    .pencarian .sub-pencarian {
+        color: #1e1e1e;
+        display: flex;
+        width: 100%;
+        border: #21825C 2px solid;
+        border-radius: 20px;
+        background-color: #EFEFEF;
+    }
+
+    .pencarian .sub-pencarian button {
+        margin: auto;
+        /* align-self: flex-end; */
+        border: none;
+        background-color: transparent;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+
+    .pencarian .sub-pencarian input {
+        padding: 10px;
+        background-color: #EFEFEF;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+
+    }
+
+    .pencarian .dropdown button {
+        background-color: #21825C;
+        box-shadow: #1e1e1e 2px 2px 10px 0px;
+        color: #F7FDB6;
+        width: 30vh;
+    }
+
+    .pencarian .dropdown {
+        margin-top: 5px;
+        margin-left: 1rem;
+    }
+
+    .pencarian {
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+
+    /* pencarian(selesai) */
+    .rekomendasi .halo {
+        /* margin: auto; */
+        position: relative;
+        border-radius: 10px;
+        /* gap: 10px; */
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 30px;
+        margin: auto !important;
+    }
+    
+    .rekomendasi{
+    }
+    .halo .card-rekomendasi .card {
+        width: 15rem !important;
+    }
+
+    .statistika{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .statistika .nilai {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    width: 100%;
+}
+}

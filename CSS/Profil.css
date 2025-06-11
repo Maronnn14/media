@@ -1,0 +1,893 @@
+/* header */
+/* Main-header */
+.main-header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+
+}
+
+.main-header .navbar .container-fluid .navbar-brand img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.4rem;
+}
+
+.main-header .navbar .container-fluid .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #F7FDB6;
+    /* width: 60%; */
+    margin-right: 38%;
+    margin-left: 20px;
+}
+
+.main-header .navbar .container-fluid {
+    display: flex;
+    background-color: #21825C;
+    padding: 0.4rem;
+}
+
+.main-header .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: #1e1e1e 0.25rem 0.25rem 0.25rem;
+    /* box-shadow: 1px 1px 15px 2px black; */
+}
+
+.main-header .navbar .container-fluid .navbar-collapse {
+    width: 45%;
+}
+
+.main-header .navbar .container-fluid .navbar-collapse .navbar-nav li a {
+    color: #F7FDB6;
+    margin-right: 0.5rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.main-header .navbar .container-fluid .navbar-collapse .navbar-nav li a:hover {
+    background-color: #F7FDB6;
+    color: #21825C;
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+/* header */
+/* Banner-hero */
+header .banner-hero {
+    margin-top: 0px;
+    background-image: url(../Gambar/vecteezy_plain-abstract-green-background_.jpg);
+    height: 25rem;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment:local ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: black 0px 1px 10px 0px;
+}
+
+header .banner-hero .mulai-sekarang .carousel .carousel-inner {
+    width: 30rem;
+    height: 15rem;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    position: static;
+}
+
+header .banner-hero .mulai-sekarang .btn {
+    width: 100%;
+    box-shadow: #1e1e1e 0.25rem 0.25rem 0.25rem;
+    /* box-shadow: #1e1e1e 2px 2px 10px 0px; */
+}
+
+header .banner-hero .kata-kata h3 {
+    color: #1e1e1e;
+    width: 325px;
+    font-size: 33px;
+    /* font-weight: 700; */
+}
+
+header .banner-hero .kata-kata p {
+    color: #424141;
+    font-size: 18px;
+    width: 300px;
+}
+
+/* End Main-header */
+/* Banner */
+.background-profil {
+    background-image: url(../Gambar/16\ 9\ Wallpaper\ Backgrounds\ For\ Youtube.jpg);
+    width: 100%;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+    z-index: 1;
+}
+
+/* End Banner */
+/* Profil */
+.card-profil {
+    background-color: #A4D792;
+    width: 20rem;
+    z-index: 2;
+    margin-bottom: 20px;
+    /* position: absolute;
+    top: 220px; */
+}
+
+.card-profil .pp img {
+    width: 14rem;
+}
+
+.card-profil .pp {
+    text-align: center;
+}
+
+.card-profil .info-user .bio .fw-bold {
+    margin-bottom: 0px !important;
+}
+
+.card-profil .info-user .NIPN .fw-bold {
+    margin-bottom: 0px !important;
+}
+
+.card-profil .info-user .id .fw-bold {
+    margin-bottom: 0px !important;
+}
+
+.card-profil .info-user .Kelas .fw-bold {
+    margin-bottom: 0px !important;
+}
+
+.status {
+    text-align: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.status .fa-solid {
+    color: #F7FDB6;
+    font-size: 40px;
+    align-items: center;
+
+
+}
+
+.status .teman .st {
+    background-color: #21825C;
+    width: 60px;
+    padding: 10px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.status .status-user .st {
+    background-color: #21825C;
+    padding: 10px;
+    height: 60px;
+}
+
+.status .teman .fw-bold {
+    margin-bottom: 0px !important;
+
+}
+
+.status .status-user .fw-bold {
+    margin-bottom: 0px !important;
+
+}
+
+.setting-profil {
+    margin-left: 5rem;
+    background-color: #A4D792;
+    width: 60%;
+    border-radius: 10px;
+    height: 35rem;
+    /* padding: 10px; */
+}
+
+.setting-profil .navbar .navbar-expand-lg {
+    width: 100%;
+    margin-top: -8px;
+    background-color: #21825C;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.setting-profil .navbar .navbar-expand-lg .nav-item a {
+    color: #F7FDB6;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.setting-profil .navbar .navbar-expand-lg .nav-item .dropdown-menu {
+    background-color: #21825C;
+}
+
+.setting-profil .navbar .navbar-expand-lg .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #A4D792;
+    color: #1e1e1e;
+}
+.setting-profil .navbar .navbar-expand-lg .nav-item a:hover{
+        background-color: #F7FDB6;
+    color: #21825C;
+    border-radius: 10px;
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+.setting-profil .setting .nama{
+    justify-content: space-around;
+}
+.setting-profil .setting .nama input{
+    width: 20rem;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.setting-profil .setting .tentang input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.setting-profil .setting .tentang{
+    text-align: center;
+    margin-top: 10px;
+}
+.setting-profil .setting .lainnya{
+    justify-content: space-evenly;
+    gap: 120px;
+    /* padding: 10px; */
+}
+.setting-profil .setting .lainnya .input input{
+    border: none;
+    outline: none;
+    width: 20rem;
+    padding: 10px;
+
+}
+
+
+.setting-profil .setting .lainnya .input .kelas{
+    margin-top: 10px;
+}
+.setting-profil .setting .lainnya{
+    margin-top: 20px;
+}
+
+.setting-profil .setting .lainnya .selection{
+    margin-top: 60px;
+}
+
+
+.setting-profil .setting .lainnya .selection .tema .tema-warna .btn{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.setting-profil .setting .lainnya .selection .tema{
+    margin-top: 10px;
+}
+.setting-profil .setting .lainnya .selection .dropdown .btn{
+    background-color: #21825C;
+}
+
+.profil{
+    margin-top: -60px;
+}
+/* End Profil */
+
+@media only screen and (min-width:580px) and (max-width:1100px){
+    /* header */
+/* Main-header */
+.main-header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+
+}
+
+.main-header .navbar .container-fluid .navbar-brand img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.4rem;
+}
+
+.main-header .navbar .container-fluid .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #F7FDB6;
+    /* width: 60%; */
+    margin-right: 38%;
+    margin-left: 20px;
+}
+
+.main-header .navbar .container-fluid {
+    display: flex;
+    background-color: #21825C;
+    padding: 0.4rem;
+}
+
+.main-header .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: #1e1e1e 0.25rem 0.25rem 0.25rem;
+    /* box-shadow: 1px 1px 15px 2px black; */
+}
+
+.main-header .navbar .container-fluid .navbar-collapse {
+    width: 45%;
+}
+
+.main-header .navbar .container-fluid .navbar-collapse .navbar-nav li a {
+    color: #F7FDB6;
+    margin-right: 0.5rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.main-header .navbar .container-fluid .navbar-collapse .navbar-nav li a:hover {
+    background-color: #F7FDB6;
+    color: #21825C;
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+/* header */
+/* Banner-hero */
+header .banner-hero {
+    margin-top: 0px;
+    background-image: url(../Gambar/vecteezy_plain-abstract-green-background_.jpg);
+    height: 25rem;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment:local ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: black 0px 1px 10px 0px;
+}
+
+header .banner-hero .mulai-sekarang .carousel .carousel-inner {
+    width: 30rem;
+    height: 15rem;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    position: static;
+}
+
+header .banner-hero .mulai-sekarang .btn {
+    width: 100%;
+    box-shadow: #1e1e1e 0.25rem 0.25rem 0.25rem;
+    /* box-shadow: #1e1e1e 2px 2px 10px 0px; */
+}
+
+header .banner-hero .kata-kata h3 {
+    color: #1e1e1e;
+    width: 325px;
+    font-size: 33px;
+    /* font-weight: 700; */
+}
+
+header .banner-hero .kata-kata p {
+    color: #424141;
+    font-size: 18px;
+    width: 300px;
+}
+
+/* End Main-header */
+/* Banner */
+.background-profil {
+    background-image: url(../Gambar/16\ 9\ Wallpaper\ Backgrounds\ For\ Youtube.jpg);
+    width: 100%;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+    z-index: 1;
+}
+
+/* End Banner */
+/* Profil */
+.card-profil {
+    background-color: #A4D792;
+    width: 13rem;
+    z-index: 2;
+    margin-bottom: 20px;
+    /* position: absolute;
+    top: 220px; */
+}
+
+.card-profil .pp img {
+    width: 10rem;
+}
+
+.card-profil .pp {
+    text-align: center;
+}
+
+.card-profil .info-user .bio .fw-bold {
+    margin-bottom: 0px !important;
+}
+
+.card-profil .info-user .NIPN .fw-bold {
+    margin-bottom: 0px !important;
+}
+
+.card-profil .info-user .id .fw-bold {
+    margin-bottom: 0px !important;
+}
+
+.card-profil .info-user .Kelas .fw-bold {
+    margin-bottom: 0px !important;
+}
+
+.status {
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.status .fa-solid {
+    color: #F7FDB6;
+    font-size: 40px;
+    align-items: center;
+
+
+}
+
+.status .teman .st {
+    background-color: #21825C;
+    width: 60px;
+    padding: 10px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.status .status-user .st {
+    background-color: #21825C;
+    padding: 10px;
+    height: 60px;
+}
+
+.status .teman .fw-bold {
+    margin-bottom: 0px !important;
+
+}
+
+.status .status-user .fw-bold {
+    margin-bottom: 0px !important;
+
+}
+
+.setting-profil {
+    margin-left: 5rem;
+    background-color: #A4D792;
+    width: 60%;
+    border-radius: 10px;
+    height: 35rem;
+    /* padding: 10px; */
+}
+
+.setting-profil .navbar .navbar-expand-lg {
+    width: 100%;
+    margin-top: -8px;
+    background-color: #21825C;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.setting-profil .navbar .navbar-expand-lg .nav-item a {
+    color: #F7FDB6;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.setting-profil .navbar .navbar-expand-lg .nav-item .dropdown-menu {
+    background-color: #21825C;
+}
+
+.setting-profil .navbar .navbar-expand-lg .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #A4D792;
+    color: #1e1e1e;
+}
+.setting-profil .navbar .navbar-expand-lg .nav-item a:hover{
+        background-color: #F7FDB6;
+    color: #21825C;
+    border-radius: 10px;
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+.setting-profil .setting .nama{
+    justify-content: space-around;
+}
+.setting-profil .setting .nama input{
+    width: 13rem;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.setting-profil .setting .tentang input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.setting-profil .setting .tentang{
+    text-align: center;
+    margin-top: 10px;
+}
+.setting-profil .setting .lainnya{
+    justify-content:space-evenly;
+    gap: 10px;
+    /* padding: 10px; */
+}
+.setting-profil .setting .lainnya .input input{
+    border: none;
+    outline: none;
+    width: 15rem;
+    padding: 10px;
+
+}
+
+
+.setting-profil .setting .lainnya .input .kelas{
+    margin-top: 10px;
+}
+.setting-profil .setting .lainnya{
+    margin-top: 20px;
+}
+
+.setting-profil .setting .lainnya .selection{
+    margin-top: 60px;
+}
+
+
+.setting-profil .setting .lainnya .selection .tema .tema-warna .btn{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.setting-profil .setting .lainnya .selection .tema{
+    margin-top: 10px;
+}
+.setting-profil .setting .lainnya .selection .dropdown .btn{
+    background-color: #21825C;
+}
+
+.profil{
+    margin-top: -60px;
+}
+/* End Profil */
+}
+@media only screen and (max-width:576px){
+   /* header */
+/* Main-header */
+.main-header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+
+}
+
+.main-header .navbar .container-fluid .navbar-brand img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.4rem;
+}
+
+.main-header .navbar .container-fluid .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #F7FDB6;
+    /* width: 60%; */
+    margin-right: 38%;
+    margin-left: 20px;
+}
+
+.main-header .navbar .container-fluid {
+    display: flex;
+    background-color: #21825C;
+    padding: 0.4rem;
+}
+
+.main-header .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: #1e1e1e 0.25rem 0.25rem 0.25rem;
+    /* box-shadow: 1px 1px 15px 2px black; */
+}
+
+.main-header .navbar .container-fluid .navbar-collapse {
+    width: 45%;
+}
+
+.main-header .navbar .container-fluid .navbar-collapse .navbar-nav li a {
+    color: #F7FDB6;
+    margin-right: 0.5rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.main-header .navbar .container-fluid .navbar-collapse .navbar-nav li a:hover {
+    background-color: #F7FDB6;
+    color: #21825C;
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+/* header */
+/* Banner-hero */
+header .banner-hero {
+    margin-top: 0px;
+    background-image: url(../Gambar/vecteezy_plain-abstract-green-background_.jpg);
+    height: 25rem;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment:local ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: black 0px 1px 10px 0px;
+}
+
+header .banner-hero .mulai-sekarang .carousel .carousel-inner {
+    width: 30rem;
+    height: 15rem;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    position: static;
+}
+
+header .banner-hero .mulai-sekarang .btn {
+    width: 100%;
+    box-shadow: #1e1e1e 0.25rem 0.25rem 0.25rem;
+    /* box-shadow: #1e1e1e 2px 2px 10px 0px; */
+}
+
+header .banner-hero .kata-kata h3 {
+    color: #1e1e1e;
+    width: 325px;
+    font-size: 33px;
+    /* font-weight: 700; */
+}
+
+header .banner-hero .kata-kata p {
+    color: #424141;
+    font-size: 18px;
+    width: 300px;
+}
+
+/* End Main-header */
+/* Banner */
+.background-profil {
+    background-image: url(../Gambar/16\ 9\ Wallpaper\ Backgrounds\ For\ Youtube.jpg);
+    width: 100%;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+    z-index: 1;
+}
+
+/* End Banner */
+/* Profil */
+.card-profil {
+    background-color: #A4D792;
+    width: 80%;
+    z-index: 2;
+    margin-bottom: 20px;
+    margin: auto !important;
+    height: 35rem;
+    /* position: absolute;
+    top: 220px; */
+}
+
+.card-profil .pp img {
+    width: 14rem;
+}
+
+.card-profil .pp {
+    text-align: center;
+}
+
+.card-profil .info-user .bio .fw-bold {
+    margin-bottom: 0px !important;
+}
+.card-profil .info-user{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.card-profil .info-user .NIPN .fw-bold {
+    margin-bottom: 0px !important;
+}
+.card-profil .info-user .NIPN{
+    margin-left: 10px;
+}
+.card-profil .info-user .id{
+    margin-left: 5rem;
+}
+.card-profil .info-user .Kelas{
+    margin-left: 5rem;
+}
+
+.card-profil .info-user .id .fw-bold {
+    margin-bottom: 0px !important;
+}
+
+.card-profil .info-user .Kelas .fw-bold {
+    margin-bottom: 0px !important;
+}
+
+.status {
+    text-align: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.status .fa-solid {
+    color: #F7FDB6;
+    font-size: 40px;
+    align-items: center;
+
+
+}
+
+.status .teman .st {
+    background-color: #21825C;
+    width: 60px;
+    padding: 10px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.status .status-user .st {
+    background-color: #21825C;
+    padding: 10px;
+    height: 60px;
+}
+
+.status .teman .fw-bold {
+    margin-bottom: 0px !important;
+
+}
+
+.status .status-user .fw-bold {
+    margin-bottom: 0px !important;
+
+}
+
+.setting-profil {
+    margin-left: 5rem;
+    background-color: #A4D792;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 20px;
+    /* padding: 10px; */
+    margin-bottom: 30px;
+    /* padding: 20px; */
+}
+
+.setting-profil .navbar .navbar-expand-lg {
+    width: 100%;
+    margin-top: -8px;
+    background-color: #21825C;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.setting-profil .navbar .navbar-expand-lg .nav-item a {
+    color: #F7FDB6;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.setting-profil .navbar .navbar-expand-lg .nav-item .dropdown-menu {
+    background-color: #21825C;
+}
+
+.setting-profil .navbar .navbar-expand-lg .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #A4D792;
+    color: #1e1e1e;
+}
+.setting-profil .navbar .navbar-expand-lg .nav-item a:hover{
+        background-color: #F7FDB6;
+    color: #21825C;
+    border-radius: 10px;
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+.setting-profil .setting .nama{
+    display: block !important;
+    /* margin-left: 27px; */
+    padding: 20px;
+
+}
+.setting-profil .setting .nama input{
+    width: 20rem;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.setting-profil .setting .tentang input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.setting-profil .setting .tentang{
+    text-align: center;
+    margin-top: 10px;
+}
+.setting-profil .setting .lainnya{
+    /* justify-content: space-evenly; */
+    gap: 10px;
+    padding: 20px;
+    display: block !important;
+    /* padding: 10px; */
+}
+.setting-profil .setting .lainnya .input input{
+    border: none;
+    outline: none;
+    width: 20rem;
+    padding: 10px;
+
+}
+
+
+.setting-profil .setting .lainnya .input .kelas{
+    margin-top: 10px;
+}
+.setting-profil .setting .lainnya{
+    margin-top: 20px;
+}
+
+.setting-profil .setting .lainnya .selection{
+    margin-top: 60px;
+}
+
+
+.setting-profil .setting .lainnya .selection .tema .tema-warna .btn{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.setting-profil .setting .lainnya .selection .tema{
+    margin-top: 10px;
+}
+.setting-profil .setting .lainnya .selection .dropdown .btn{
+    background-color: #21825C;
+}
+
+.profil{
+    margin-top: -60px;
+    display: block !important;
+}
+/* End Profil */ 
+}
